@@ -148,9 +148,7 @@ DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=smart_dwlr
 
-# Alerts — Fast2SMS (free for Indian numbers, sign up at fast2sms.com)
-FAST2SMS_API_KEY=your_api_key_here
-SMS_TO_NUMBER=+91XXXXXXXXXX
+
 ```
 
 ```bash
@@ -181,25 +179,7 @@ The frontend reads `VITE_API_URL` from `frontend/.env`:
 VITE_API_URL=http://localhost:8000
 ```
 
-Login with any email/password — auth is mocked for the demo.
 
----
-
-### 3. Connecting the ESP32 / Wokwi Simulation
-
-Open the Wokwi project: [https://wokwi.com/projects/468059626618861569](https://wokwi.com/projects/468059626618861569)
-
-Since the Wokwi browser simulator cannot reach `localhost`, expose your backend with a tunnel:
-
-```bash
-npx localtunnel --port 8000
-# → your url is: https://xxxx-xxxx.loca.lt
-```
-
-Then update `sensor-c/secrets.cpp`:
-```cpp
-const char* API_URL = "https://xxxx-xxxx.loca.lt/api/sensor";
-```
 
 The ESP32 sketch POSTs this JSON payload every ~10 seconds:
 ```json
@@ -274,16 +254,6 @@ pH and turbidity estimates are clearly disclosed in the Water Quality screen. Re
 
 ---
 
-## SMS Alerts
-
-Alerts fire automatically at ingest time when risk is **High** or **Critical**.
-
-**Provider: Fast2SMS** (free for Indian numbers, no DLT registration needed)
-1. Sign up at [fast2sms.com](https://www.fast2sms.com)
-2. Go to **Dev API** → copy your Authorization Key
-3. Set `FAST2SMS_API_KEY` in `.env`
-
-If no API key is set, alerts log to the console as `[SMS DEMO]` so the app works in development without any configuration.
 
 ---
 
@@ -322,6 +292,4 @@ npx localtunnel --port 8000
 
 ---
 
-## License
 
-MIT — built for the Smart India Hackathon. Free to use, adapt, and deploy.
