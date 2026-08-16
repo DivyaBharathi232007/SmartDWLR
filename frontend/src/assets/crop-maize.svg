@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Maize crop illustration">
+  <rect width="800" height="500" rx="32" fill="#fffdf4"/>
+  <rect x="45" y="320" width="710" height="120" rx="24" fill="#f6eecb"/>
+  <path d="M140 310c30-70 74-110 132-110 58 0 106 36 140 90" stroke="#f2b33b" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M300 280c20-88 56-132 112-132 54 0 100 44 130 122" stroke="#e08b19" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M208 248l24 44-26 42" fill="#4b8f3d"/>
+  <path d="M262 224l40 54-46 48" fill="#4b8f3d"/>
+  <path d="M344 220l42 50-42 42" fill="#4b8f3d"/>
+  <path d="M398 250l38 44-36 38" fill="#4b8f3d"/>
+  <path d="M438 240l42 44-36 42" fill="#4b8f3d"/>
+  <path d="M198 198c18-42 38-62 62-62" stroke="#6c4223" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M330 192c30-38 54-55 90-58" stroke="#6c4223" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="642" cy="172" r="48" fill="#ffc85d"/>
+  <path d="M642 126v38m0 40v38m-38-38h38m38 0h38" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+</svg>

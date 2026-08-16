@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Millet crop illustration">
+  <rect width="800" height="500" rx="32" fill="#f8fcf1"/>
+  <rect x="40" y="320" width="720" height="120" rx="24" fill="#e7f4d9"/>
+  <path d="M144 284c32-72 84-112 152-112 76 0 126 50 154 118" stroke="#86c44e" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M334 258c18-74 58-111 118-111 54 0 98 40 126 98" stroke="#5f9d3b" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M190 226c20 18 34 24 54 24" stroke="#4f7a31" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M280 214c24 14 40 20 64 20" stroke="#4f7a31" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M408 210c28 18 46 24 72 24" stroke="#4f7a31" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="638" cy="174" r="46" fill="#f1c653"/>
+  <path d="M638 132v42m0 42v42m-42-42h42m42 0h42" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+</svg>

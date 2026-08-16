@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Rainwater harvesting illustration">
+  <rect width="800" height="500" rx="32" fill="#f4fbff"/>
+  <rect x="48" y="320" width="704" height="120" rx="24" fill="#dceef8"/>
+  <path d="M170 280c0-74 44-126 100-126 62 0 112 46 112 126" fill="#87c7e9"/>
+  <path d="M150 286c32-44 74-66 132-66 46 0 92 18 132 50" stroke="#3d7e9f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M440 220c46-24 90-28 130-14" stroke="#5fb0da" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M440 256c48-10 84-4 132 14" stroke="#4f90b0" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M410 300h180" stroke="#2f5f79" stroke-width="10" stroke-linecap="round"/>
+  <path d="M100 318c68-84 116-126 192-154" stroke="#2e8b57" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="640" cy="176" r="46" fill="#6eddc0"/>
+  <path d="M640 134v42m0 42v42m-42-42h42m42 0h42" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+</svg>

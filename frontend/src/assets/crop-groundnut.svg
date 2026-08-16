@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Groundnut field illustration">
+  <rect width="800" height="500" rx="32" fill="#fcfbf3"/>
+  <rect x="40" y="320" width="720" height="120" rx="24" fill="#e9f5dc"/>
+  <path d="M120 260c90-24 174-28 240-20 60 12 110 32 170 32 70 0 128-20 180-56" stroke="#7bbf5b" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M150 270c68-8 128-8 190 0 64 8 116 20 176 20 50 0 102-10 154-28" stroke="#4a8f3a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M220 200c17 26 30 40 50 40 24 0 58-24 75-60" stroke="#4c7c2f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M330 188c12 24 24 37 42 37 15 0 30-10 38-24" stroke="#4c7c2f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M460 212c12 20 26 30 44 30 16 0 30-12 38-28" stroke="#4c7c2f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="248" cy="240" r="24" fill="#f2d06b"/>
+  <circle cx="356" cy="228" r="20" fill="#e7c75f"/>
+  <circle cx="474" cy="242" r="22" fill="#f2d06b"/>
+  <circle cx="620" cy="170" r="45" fill="#f3c34c"/>
+  <path d="M620 130v40m0 42v40m-40-40h40m40 0h40" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Pulse crop illustration">
+  <rect width="800" height="500" rx="32" fill="#fcf7f2"/>
+  <rect x="40" y="320" width="720" height="120" rx="24" fill="#f2e5d0"/>
+  <path d="M150 250c50-46 102-72 156-72 60 0 112 24 156 70 42 44 92 70 140 70" stroke="#d3853d" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M180 276c38-22 78-32 116-32 56 0 100 18 146 52" stroke="#ba6c2c" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M314 202c16 22 26 36 38 54" stroke="#8c4c1f" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M382 212c18 20 30 34 44 52" stroke="#8c4c1f" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M280 176c20 10 38 14 56 14" stroke="#8c4c1f" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M394 188c20 10 34 14 50 14" stroke="#8c4c1f" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="640" cy="174" r="46" fill="#f4c45b"/>
+  <path d="M640 132v42m0 42v42m-42-42h42m42 0h42" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+</svg>

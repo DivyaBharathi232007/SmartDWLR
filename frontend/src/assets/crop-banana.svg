@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Banana plantation illustration">
+  <rect width="800" height="500" rx="32" fill="#fffaf1"/>
+  <rect x="40" y="320" width="720" height="120" rx="24" fill="#eaf8da"/>
+  <path d="M180 250c80-40 160-60 260-60 100 0 180 24 240 70" stroke="#7ac943" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <path d="M220 270c40-16 70-24 114-24 58 0 110 18 149 42" stroke="#4e9f3b" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M208 242c0-90 44-126 100-126 68 0 119 53 126 126" fill="#f4c542"/>
+  <path d="M308 180c0-82 34-116 78-116 36 0 80 24 80 92" fill="#f7d96f"/>
+  <path d="M235 190c30 18 56 24 86 24" stroke="#2e7d32" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M205 245c36 18 62 24 92 24" stroke="#2e7d32" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M270 145c24 6 44 7 61 0" stroke="#2e7d32" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M390 170c26 8 44 10 66 10" stroke="#2e7d32" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M320 210c55 18 92 24 140 14" stroke="#e48f20" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M252 212l48 30-42 32" fill="#f2b132"/>
+  <path d="M348 208l70 30-62 34" fill="#e08d22"/>
+  <circle cx="640" cy="170" r="44" fill="#f2b132"/>
+  <path d="M640 132v36m0 40v36m-36-36h36m36 0h36" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+</svg>

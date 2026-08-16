@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Drip irrigation illustration">
+  <rect width="800" height="500" rx="32" fill="#f5fbfd"/>
+  <rect x="60" y="320" width="680" height="110" rx="24" fill="#dff3f7"/>
+  <path d="M200 230c0-108 58-156 122-156 60 0 120 44 120 156" fill="#5fc3e6"/>
+  <path d="M217 228c0-82 44-122 101-122 49 0 96 38 96 122" fill="#8ed8f1"/>
+  <path d="M180 258h230" stroke="#2f7fa8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M215 182c30 10 54 14 78 14" stroke="#1f4d63" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M292 176c26 10 50 14 74 14" stroke="#1f4d63" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M460 210c40-8 74-6 116 10" stroke="#5fb2d7" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M465 240c34-4 64-4 92 8" stroke="#4d8eb0" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M70 310c52-72 96-108 154-136" stroke="#2e8b57" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="640" cy="174" r="46" fill="#6fdd8e"/>
+  <path d="M640 132v42m0 42v42m-42-42h42m42 0h42" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+</svg>

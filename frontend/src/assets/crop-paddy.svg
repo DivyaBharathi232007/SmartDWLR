@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Paddy field illustration">
+  <rect width="800" height="500" rx="32" fill="#f5fbf8"/>
+  <rect x="40" y="300" width="720" height="140" rx="24" fill="#dff7ea"/>
+  <path d="M80 340c80-70 140-90 220-90 120 0 220 70 320 70 60 0 110-20 160-70v120H80Z" fill="#82c97d"/>
+  <path d="M120 320c55-20 110-30 160-30 90 0 180 32 255 32 65 0 120-16 180-42" stroke="#2d7a4b" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M150 355c40-18 80-24 120-24 110 0 170 32 255 32 60 0 115-14 170-42" stroke="#1f5f3b" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M120 220c24 10 48 14 72 14 26 0 55-8 83-22" stroke="#2e8b57" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M220 240c44 6 78 9 120 9 34 0 69-7 101-20" stroke="#2e8b57" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M340 216c36 8 66 13 102 13 28 0 54-4 80-14" stroke="#2e8b57" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M470 232c18 4 34 6 52 6 24 0 44-3 68-12" stroke="#2e8b57" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M100 348h600" stroke="#2d7a4b" stroke-width="6" stroke-dasharray="10 12"/>
+  <rect x="120" y="84" width="160" height="92" rx="20" fill="#ffffff" stroke="#dfeee4" stroke-width="4"/>
+  <path d="M150 134c20-24 34-36 50-36 16 0 30 15 42 36" stroke="#1e8f6b" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="618" cy="154" r="48" fill="#f1ca64"/>
+  <path d="M618 98v32m0 48v32m-32-32h32m32 0h32" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+</svg>

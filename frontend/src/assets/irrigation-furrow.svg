@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Furrow irrigation illustration">
+  <rect width="800" height="500" rx="32" fill="#f8fcf5"/>
+  <rect x="48" y="320" width="704" height="120" rx="24" fill="#e8f4db"/>
+  <path d="M120 260c80-48 150-78 230-78 90 0 162 34 250 78" stroke="#86c44e" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M160 292c50-20 102-28 160-28 78 0 140 20 222 34" stroke="#4f8f3b" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M160 190c38 18 74 26 112 26 54 0 96-14 136-44" stroke="#2e7d32" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M340 190c44 16 84 22 126 22 38 0 74-8 108-24" stroke="#2e7d32" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M470 212c38-6 70-4 110 12" stroke="#7ccf5d" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="642" cy="176" r="46" fill="#9bdb6a"/>
+  <path d="M642 134v42m0 42v42m-42-42h42m42 0h42" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+</svg>

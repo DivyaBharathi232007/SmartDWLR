@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Sprinkler irrigation illustration">
+  <rect width="800" height="500" rx="32" fill="#f5fbff"/>
+  <rect x="48" y="320" width="704" height="120" rx="24" fill="#dceef8"/>
+  <path d="M190 250c0-84 44-126 102-126 56 0 102 40 102 126" fill="#66b6e4"/>
+  <path d="M220 252c0-60 20-90 66-90 42 0 72 24 72 90" fill="#8dcff2"/>
+  <path d="M170 260h250" stroke="#2b6e8c" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="260" cy="182" r="20" fill="#f6c95f"/>
+  <circle cx="330" cy="178" r="16" fill="#f1b941"/>
+  <circle cx="400" cy="186" r="18" fill="#f6c95f"/>
+  <path d="M250 170c28 14 48 20 74 20" stroke="#25637d" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M332 160c24 10 42 14 64 14" stroke="#25637d" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M470 205c40-8 72-8 112 12" stroke="#74c4ee" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="648" cy="174" r="46" fill="#7bd3ff"/>
+  <path d="M648 132v42m0 42v42m-42-42h42m42 0h42" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+</svg>
