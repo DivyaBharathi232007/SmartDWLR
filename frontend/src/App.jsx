@@ -55,13 +55,13 @@ function ProtectedShell({ children }) {
     return <Navigate to="/" replace />;
   }
   return (
-    <div className="app-background relative h-screen overflow-hidden bg-[#eef1f8] lg:flex">
+    <div className="app-background relative flex h-dvh min-h-0 overflow-hidden bg-[#eef1f8]">
       <div className="dashboard-bubbles" aria-hidden="true"><i /><i /><i /><i /></div>
       <div className="app-watermark" aria-hidden="true">
         <img src={appLogo} alt="" />
       </div>
       <Sidebar />
-      <div className="app-content min-h-0 flex-1 overflow-x-hidden overflow-y-auto lg:ml-64">
+      <div className="app-content h-full min-h-0 flex-1 overflow-x-hidden overflow-y-auto pb-[calc(4.75rem+env(safe-area-inset-bottom))] lg:ml-64 lg:pb-0">
         <div className="mx-auto w-full max-w-md lg:max-w-none">
           <PageTransition>{children}</PageTransition>
         </div>

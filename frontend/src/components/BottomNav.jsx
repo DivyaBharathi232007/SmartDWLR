@@ -17,7 +17,7 @@ export default function BottomNav() {
   const visibleItems = items.filter((item) => !item.roles || item.roles.includes(role));
 
   return (
-    <nav className="glass fixed bottom-0 left-0 right-0 z-30 mx-auto max-w-md border-t border-slate-200 lg:hidden">
+    <nav className="glass fixed bottom-0 left-0 right-0 z-30 mx-auto max-w-md border-t border-slate-200 pb-[env(safe-area-inset-bottom)] lg:hidden">
       <ul className="flex items-stretch justify-between px-2">
         {visibleItems.map(({ to, key, icon: Icon, end }) => (
           <li key={to} className="flex-1">
