@@ -5,23 +5,33 @@ import { Card, Pill, Loader, ErrorState } from "../components/Card";
 import { getRecommendations } from "../api";
 import { usePolling } from "../hooks/usePolling";
 import { t, tf } from "../i18n";
+import paddyImage from "../assets/crops/paddy.jpg";
+import bananaImage from "../assets/crops/banana.jpg";
+import groundnutImage from "../assets/crops/groundnut.jpg";
+import maizeImage from "../assets/crops/maize.jpg";
+import milletImage from "../assets/crops/millet.jpg";
+import pulseImage from "../assets/crops/pulse.jpg";
+import dripImage from "../assets/irrigation/drip.jpg";
+import sprinklerImage from "../assets/irrigation/sprinkler.jpg";
+import furrowImage from "../assets/irrigation/furrow.jpg";
+import rainwaterImage from "../assets/irrigation/rainwater.jpg";
 
 const availTone = { High: "emerald", Moderate: "amber", Low: "coral" };
 
 const cropVisuals = {
-  paddy: { image: "./src/assets/crops/paddy.jpg", accent: "from-emerald-600/70 to-teal-600/30", labelKey: "cropLabelPaddy" },
-  banana: { image: "./src/assets/crops/banana.jpg", accent: "from-amber-600/70 to-orange-500/20", labelKey: "cropLabelBanana" },
-  groundnut: { image: "./src/assets/crops/groundnut.jpg", accent: "from-yellow-600/70 to-amber-500/20", labelKey: "cropLabelGroundnut" },
-  maize: { image: "./src/assets/crops/maize.jpg", accent: "from-amber-700/70 to-orange-600/20", labelKey: "cropLabelMaize" },
-  millet: { image: "./src/assets/crops/millet.jpg", accent: "from-lime-600/70 to-emerald-500/20", labelKey: "cropLabelMillet" },
-  pulse: { image: "./src/assets/crops/pulse.jpg", accent: "from-rose-600/70 to-coral-500/20", labelKey: "cropLabelPulse" },
+  paddy: { image: paddyImage, accent: "from-emerald-600/70 to-teal-600/30", labelKey: "cropLabelPaddy" },
+  banana: { image: bananaImage, accent: "from-amber-600/70 to-orange-500/20", labelKey: "cropLabelBanana" },
+  groundnut: { image: groundnutImage, accent: "from-yellow-600/70 to-amber-500/20", labelKey: "cropLabelGroundnut" },
+  maize: { image: maizeImage, accent: "from-amber-700/70 to-orange-600/20", labelKey: "cropLabelMaize" },
+  millet: { image: milletImage, accent: "from-lime-600/70 to-emerald-500/20", labelKey: "cropLabelMillet" },
+  pulse: { image: pulseImage, accent: "from-rose-600/70 to-coral-500/20", labelKey: "cropLabelPulse" },
 };
 
 const irrigationVisuals = {
-  drip: { image: "./src/assets/irrigation/drip.jpg", labelKey: "irrLabelDrip" },
-  sprinkler: { image: "./src/assets/irrigation/sprinkler.jpg", labelKey: "irrLabelSprinkler" },
-  furrow: { image: "./src/assets/irrigation/furrow.jpg", labelKey: "irrLabelFurrow" },
-  rainwater: { image: "./src/assets/irrigation/rainwater.jpg", labelKey: "irrLabelRainwater" },
+  drip: { image: dripImage, labelKey: "irrLabelDrip" },
+  sprinkler: { image: sprinklerImage, labelKey: "irrLabelSprinkler" },
+  furrow: { image: furrowImage, labelKey: "irrLabelFurrow" },
+  rainwater: { image: rainwaterImage, labelKey: "irrLabelRainwater" },
 };
 
 function getCropVisual(cropName = "") {
