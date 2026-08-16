@@ -18,6 +18,9 @@ load_dotenv()
 def _build_database_url() -> str:
     database_url = os.getenv("DATABASE_URL")
     if database_url:
+        # Convert postgresql:// to postgresql+psycopg:// for psycopg v3
+        if database_url.startswith("postgresql://"):
+            database_url = database_url.replace("postgresql://", "postgresql+psycopg://", 1)
         return database_url
 
     use_mysql = os.getenv("USE_MYSQL", "").strip().lower() in {"1", "true", "yes", "y", "on"}
